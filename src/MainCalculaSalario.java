@@ -23,12 +23,12 @@ Salário líquido.*/
             double salarioLiquido = salarioBruto - descontoINSS - descontoIR;
 
 	              
-	                System.out.printf(" %d:\n", i);
-	                System.out.printf("Salário Bruto: R$ %.2f\n", salarioBruto);
-	                System.out.printf("Quanto pagou ao INSS: R$ %.2f\n", descontoINSS);
-	                System.out.printf("Quanto pagou de Imposto de Renda: R$ %.2f\n", descontoIR);
-	                System.out.printf(" O valor do Salário Líquido: R$ %.2f\n", salarioLiquido);
-	                System.out.println();
+	                
+	                System.out.printf("Salário Bruto:  %.2f\n", salarioBruto);
+	                System.out.printf("Quanto pagou ao INSS: %.2f\n", descontoINSS);
+	                System.out.printf("Quanto pagou de Imposto de Renda: %.2f\n", descontoIR);
+	                System.out.printf(" O valor do Salário Líquido:  %.2f\n", salarioLiquido);
+	                
 	            }
 	        }
 
